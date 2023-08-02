@@ -1,0 +1,14 @@
+{% extends "template.html" %}
+{% block conteudo %}
+
+<div align="center">
+  <form action="/res3" method="post">
+    <h2>Descubra se o número é par ou ímpar</h2>
+    <h3> Digite um número </h3><br>
+    <input type="number" name="numero"><br><br>
+    <button type="submit">Enviar</button>
+    <a href="/">Voltar</a>
+  </form>
+</div>
+
+{% endblock %}

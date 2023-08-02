@@ -1,0 +1,17 @@
+{% extends "template.html" %}
+{% block conteudo %}
+
+<div align="center">
+  <form action="/res6" method="post">
+    <h2>Exiba números pares e positivos</h2>
+    <h3>Digite dois números</h3>
+    Primeiro número<br>
+    <input type="number" name="num1"><br>
+    Segundo número<br>
+    <input type="number" name="num2"><br><Br>
+    <button type="submit">Enviar</button>
+    <a href="/">Voltar</a>
+  </form>
+</div>
+
+{% endblock %}

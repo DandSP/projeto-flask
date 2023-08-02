@@ -1,0 +1,17 @@
+{% extends "template.html" %}
+{% block conteudo %}
+
+<div align="center">
+  <form action="/res2" method="POST">
+      <h2>Descubra as 4 operações matemáticas baseadas em dois números</h2>
+      <h3> Digite 2 números </h3>
+      Primeiro número<br>
+      <input type="text" name="num1"><br>
+      Segundo número<br>
+      <input type="text" name="num2"><br><br>
+      <button type="submit">Enviar</button>
+      <a href="/">Voltar</a>
+  </form>
+</div>
+
+{% endblock %}

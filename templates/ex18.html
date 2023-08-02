@@ -1,0 +1,16 @@
+{% extends "template.html" %}
+{% block conteudo %}
+
+<div align="center">
+  <form action="/res18" method="post">
+    <h2>Bonûs de Natal</h2>
+    Código do funcionário: <input type="number" name="cod"><br><br>
+    Sexo: <input type="text" name="sex"><br><br>
+    Anos na empresa: <input type="number" name="anos"><br><br>
+    Salário: <input type="text" name="sal"><br><br>
+    <button type="submit">Enviar</button>
+    <a href="/">Voltar</a>
+  </form>
+</div>
+
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends "template.html" %}
+{% block conteudo %}
+
+<div align="center">
+  <form action="/res11" method="post">
+    <h2>Conversão de Celsius para Kelvin</h2>
+    Digite o grau em Celcius<br>
+    <input type="text" name="grau"><br><br>
+    <button type="submit">Enviar</button>
+    <a href="/">Voltar</a>
+  </form>
+</div>
+
+{% endblock %}

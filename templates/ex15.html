@@ -1,0 +1,14 @@
+{% extends "template.html" %}
+{% block conteudo %}
+
+<div align="center">
+  <form action="/res15" method="post">
+    <h2>Seu Madruga LTDA</h2>
+    Número de diárias<br>
+    <input type="number" name="dias"><br><br>
+    <button type="submit">Enviar</button>
+    <a href="/">Voltar</a>
+  </form>
+</div>
+
+{% endblock %}

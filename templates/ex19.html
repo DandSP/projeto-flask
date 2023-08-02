@@ -1,0 +1,14 @@
+{% extends "template.html" %}
+{% block conteudo %}
+
+<div align="center">
+  <form action="/res19" method="post">
+    <h2>Quantos elefantes incomodam?</h2>
+    Número de elefantes<br>
+    <input type="number" name="ele"><br><br>
+    <button type="submit">Enviar</button>
+    <a href="/">Voltar</a>
+  </form>
+</div>
+
+{% endblock %}

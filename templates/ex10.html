@@ -1,0 +1,16 @@
+{% extends "template.html" %}
+{% block conteudo %}
+
+<div align="center">
+  <form action="/res10" method="post">
+    <h2>Verificar se é maior de idade e o desconto</h2>
+    Digite o dia de nascimento: <input type="text" name="dia"><br><br>
+    Digite o mês de nascimento: <input type="text" name="mes"><br><br>
+    Digite o ano de nascimento: <input type="text" name="ano"><br><br>
+    Digite o total da compra: <input type="number" name="prec"><br><br>
+    <button type="submit">Enviar</button>
+    <a href="/">Voltar</a>
+  </form>
+</div>
+
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "template.html" %}
+{% block conteudo %}
+
+<div align="center">
+  <form action="/res17" method="post">
+    <h2>Calculo média</h2>
+    Código do aluno: <input type="number" name="cod"><br><br>
+    Primeira nota: <input type="text" name="no1"><br><br>
+    Segunda nota: <input type="text" name="no2"><br><br>
+    Terceira nota: <input type="text" name="no3"><br><br>
+    Nota dos exercícios: <input type="text" name="no4"><br><br>
+    <button type="submit">Enviar</button>
+    <a href="/">Voltar</a>
+  </form>
+</div>
+
+{% endblock %}
